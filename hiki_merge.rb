@@ -1,10 +1,12 @@
 #!/usr/bin/ruby
-require 'hiki/db/ptstore'
 require 'fileutils'
 require 'kconv'
 require 'cgi'
 require 'optparse'
 require 'pp'
+
+Dir.chdir(File.dirname($0))
+require 'hiki/db/ptstore'
 
 $KCODE = "e"
 
