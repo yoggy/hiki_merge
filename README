@@ -1,0 +1,9 @@
+Usage
+
+  test mode (option -t)
+  $ sudo -u www-data /home/yoggy/hiki_merge/hiki_merge.rb -s /path/to/src/hiki/data -d /path/to/dest/hiki/data -t
+
+  merge mode
+  $ sudo -u www-data /home/yoggy/hiki_merge/hiki_merge.rb -s /path/to/src/hiki/data -d /path/to/dest/hiki/data
+
+
